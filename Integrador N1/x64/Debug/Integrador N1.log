@@ -1,0 +1,10 @@
+﻿  Math.cpp
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\Math.cpp(11,18): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\Math.cpp(25,18): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\Math.cpp(37,15): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\Math.cpp(37,29): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\Math.cpp(54,19): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\Math.cpp(54,37): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\Math.cpp(70,19): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\Math.cpp(70,37): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Integrador N1.vcxproj -> D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\x64\Debug\Integrador N1.exe
