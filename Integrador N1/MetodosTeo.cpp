@@ -1,11 +1,10 @@
-#include "MetodosTeo.h"
+﻿#include "MetodosTeo.h"
 
 #include <iostream>
 #include <fstream>
 
 namespace MetodosTeo
 {
-
     bool ComprobarArgumentos(int argc, char* argv[], int& N)
     {
         bool rta = true;
@@ -120,7 +119,27 @@ namespace MetodosTeo
 
         return fuenteNula;
     }
-    float CalcularEntropia(std::vector<std::vector<float>> distr, int orden, bool mostrarSecuencia)
+
+    float CalcularEntropiaMemoriaNula(std::vector<std::vector<float>> distr)
+    {
+        int n = distr.size();
+
+        int i, j;
+
+        float entropia = 0.0f;
+
+        for (i = 0; i < n; i++)
+        {
+            entropia += distr[i][0] * log2f(1.0 / distr[i][0]);
+            /*for (j = 0; j < n; j++)
+            {
+                entropia += distr[i][0] * log2f(1.0 / distr[i][0]);
+            }*/
+        }
+
+        return entropia;
+    }
+    float CalcularEntropiaOrdenN(std::vector<std::vector<float>> distr, int orden, bool mostrarSecuencia)
     {
         std::vector<int> contador(orden, 0);
 
@@ -130,6 +149,12 @@ namespace MetodosTeo
         float entropia = 0.0f;
 
         int i, j;
+
+        if (mostrarSecuencia)
+        {
+            std::cout << " Codigos\tProbabilidades" << std::endl;
+        }
+
         for (i = 0; i < cantidad; i++)
         {
             float p = 1.0f;
@@ -147,7 +172,7 @@ namespace MetodosTeo
             }
             if (mostrarSecuencia)
             {
-                std::cout << " Probabilidad: " << p << std::endl;
+                std::cout << "\t\t " << p << std::endl;
             }
             j = orden - 1;
             while (j >= 0)
@@ -167,6 +192,24 @@ namespace MetodosTeo
         }
 
         contador.clear();
+        return entropia;
+    }
+    float CalcularEntropiaMemoriaNoNula(std::vector<std::vector<float>> P, std::vector<float> V)
+    {
+        int n = P.size();
+
+        int i, j;
+
+        float entropia = 0.0f;
+
+        for (i = 0; i < n; i++)
+        {
+            for (j = 0; j < n; j++)
+            {
+                entropia += V[j] * P[i][j] * log2f(1.0 / P[i][j]);
+            }
+        }
+
         return entropia;
     }
 

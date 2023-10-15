@@ -18,7 +18,9 @@ namespace MetodosTeo
 	void AplicarProbabilidad(std::vector<std::vector<float>>* m, std::vector<float> a);
 	void MostrarProbabilidades(std::vector<std::vector<float>> m);
 	bool EsFuenteNula(std::vector<std::vector<float>> m);
-	float CalcularEntropia(std::vector<std::vector<float>> distr, int orden, bool mostrarSecuencia);
+	float CalcularEntropiaMemoriaNula(std::vector<std::vector<float>> distr);
+	float CalcularEntropiaOrdenN(std::vector<std::vector<float>> distr, int orden, bool mostrarSecuencia);
+	float CalcularEntropiaMemoriaNoNula(std::vector<std::vector<float>> P, std::vector<float> V);
 
 	std::vector<float>* CalcularVectorEstacionario(std::vector<std::vector<float>> m);
 }

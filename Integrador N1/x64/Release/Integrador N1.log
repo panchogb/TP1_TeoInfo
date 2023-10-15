@@ -1,7 +1,22 @@
 ﻿  Integrador N1.cpp
+  MetodosTeo.cpp
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(73,9): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(73,24): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(85,15): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(85,29): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(103,29): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(103,46): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(125,15): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(133,49): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(127,16): warning C4101: 'j': variable local sin referencia
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(146,15): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(147,22): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(199,15): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(209,56): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\MetodosTeo.cpp(218,18): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
   Generando código
-  2 of 312 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  6 of 314 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
+    3 functions were new in current compilation
+    12 functions had inline decision re-evaluated but remain unchanged
   Generación de código finalizada
   Integrador N1.vcxproj -> D:\Facultad\Cursando\Teoria de la Informacion\TPs\1\Integrador N1\x64\Release\Integrador N1.exe
